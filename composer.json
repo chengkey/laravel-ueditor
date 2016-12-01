@@ -1,10 +1,10 @@
 {
-  "name": "stevenyangecho/laravel-u-editor",
+  "name": "Chengkey/laravel-ueditor",
   "description": "UEditor for laravel5. Support i18n. UEditor is a Rich Text Web Editor From Baidu.",
   "keywords": [
     "laravel",
     "ueditor",
-    "laravel-u-editor",
+    "laravel-ueditor",
     "laravel5 web text editor"
   ],
   "license": "MIT",
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Stevenyangecho\\UEditor\\": "src/"
+      "Chengkey\\UEditor\\": "src/"
     }
   },
   "minimum-stability": "dev",
