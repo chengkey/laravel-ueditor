@@ -12,16 +12,8 @@ UEditor 前台文件完全无修改,可自由gulp等工具部署到生产环境
 支持本地和七牛云存储,默认为本地上传 public/uploads
 
 ##ChangeLog
- 1.3.0 版  改变服务器请求路由 为 /laravel-u-editor-server/server 
-           老版本升级,需要 更改 public/ueditor.config.js 
-          
-            , serverUrl: "/laravel-u-editor-server/server"
-
- 1.2.5 版 增加对Laravel5.* 的支持,更新百度 UEditor 1.4.3.1
- 
- 1.2 版 增加对Laravel5.1 的支持,修改一些说明
- 
- 1.1 版 增加七牛云存储的支持
+ 1.1 版 增加阿里云存储的支持
+ 1.0 版 引用https://github.com/stevenyangecho/laravel-u-editor代码，fix bug
 
 ## 重要提示
 有些同学配置总是不成功,除了一般设置,权限等基础问题,很大的可能是 middleware和 csrf 没配置好.
