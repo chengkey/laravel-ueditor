@@ -1,4 +1,4 @@
-<?php namespace Stevenyangecho\UEditor;
+<?php namespace Chengkey\UEditor;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
