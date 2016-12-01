@@ -14,7 +14,7 @@ class UploadCatch  extends Upload{
     public function doUpload()
     {
 
-        $imgUrl = strtolower(str_replace("&amp;", "&", $this->config['imgUrl']));
+        $imgUrl = str_replace("&amp;", "&", $this->config['imgUrl']);
         //http开头验证
         if (strpos($imgUrl, "http") !== 0) {
             $this->stateInfo = $this->getStateInfo("ERROR_HTTP_LINK");
